@@ -7,7 +7,16 @@ module.exports = {
 		// Or if using `src` directory:
 		'./src/**/*.{js,ts,jsx,tsx}',
 	],
-	safelist: ['btn-primary', 'input-icon', 'shadow-gradient', 'hover:shadow-gradient-hover'],
+	safelist: [
+		'btn-primary',
+		'btn-secondary',
+		'custom-nowrap',
+		'input-modal',
+		'input-icon',
+		'post-icon',
+		'shadow-gradient',
+		'hover:shadow-gradient-hover',
+	],
 	theme: {
 		extend: {
 			// colors: {

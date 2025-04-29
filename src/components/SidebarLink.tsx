@@ -13,9 +13,9 @@ export function SidebarLink({ text, Icon }: Props) {
 	const pathname = usePathname();
 
 	return (
-		<li className="w-fit xl:w-full shadow-gradient hover:shadow-gradient-hover border-b-3 border-gray-300 p-2 rounded-lg">
+		<li className="w-fit xl:w-full bg-[var(--widget-bg)] shadow-gradient hover:shadow-gradient-hover border-b-3 border-gray-300 p-2 rounded-lg">
 			<Link
-				className={`flex items-center gap-2 text-xl space-x-3 font-medium ${
+				className={`flex gap-3 items-center p-2 text-lg font-medium ${
 					pathname === '/' ? 'active' : ''
 				}`}
 				href={'/'}>

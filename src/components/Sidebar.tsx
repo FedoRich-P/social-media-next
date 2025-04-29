@@ -13,9 +13,7 @@ import {
 import Link from 'next/link';
 import Image from 'next/image';
 
-type Props = {};
-
-export function Sidebar(props: Props) {
+export function Sidebar() {
 	return (
 		<aside
 			className={

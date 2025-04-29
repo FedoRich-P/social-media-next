@@ -5,9 +5,7 @@ import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { selectCount, toggleSignUpModal } from '@/redux/slices/modalSlice';
 import { EyeIcon } from '@heroicons/react/24/outline';
 
-type Props = {};
-
-export function SignUpModal(props: Props) {
+export function SignUpModal() {
 	const dispatch = useAppDispatch();
 	const open = useAppSelector(selectCount);
 

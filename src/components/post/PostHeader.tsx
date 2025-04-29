@@ -1,8 +1,5 @@
 import Image from 'next/image';
-
-type Props = {};
-
-export function PostHeader(props: Props) {
+export function PostHeader() {
 	return (
 		<header className={'flex p-3 items-start space-x-5'}>
 			<Image src={'/man.png'} width={50} height={50} alt={'Posts user photo'} />

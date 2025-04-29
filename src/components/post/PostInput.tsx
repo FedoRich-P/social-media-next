@@ -7,9 +7,7 @@ import {
 	PhotoIcon,
 } from '@heroicons/react/24/outline';
 
-type Props = {};
-
-export function PostInput(props: Props) {
+export function PostInput() {
 	return (
 		<form className={'flex gap-2 p-2 items-center  border-1 rounded-lg border-zinc-200'}>
 			<Image src={'/globe.svg'} width={44} height={44} alt={'Logo'} className={'self-start'} />

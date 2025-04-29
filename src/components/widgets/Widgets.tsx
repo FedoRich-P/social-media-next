@@ -4,9 +4,7 @@ import { WidgetsWrapper } from '@/components/widgets/WidgetsWrapper';
 import { widgetBottomData, widgetTopData } from '@/constants/widets';
 import { WidgetBottomItem } from '@/components/widgets/WidgetBottomItem';
 
-type Props = {};
-
-export function Widgets(props: Props) {
+export function Widgets() {
 	return (
 		<aside
 			className={

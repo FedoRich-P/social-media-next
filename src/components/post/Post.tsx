@@ -6,9 +6,7 @@ import {
 	HeartIcon,
 } from '@heroicons/react/24/outline';
 
-type Props = {};
-
-export function Post(props: Props) {
+export function Post() {
 	return (
 		<article className={'border-b-[2px] border-b-[var(--border-color)]'}>
 			<PostHeader />

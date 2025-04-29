@@ -1,8 +1,6 @@
 import { SignUpModal } from '@/components/modals/SignUpModal';
 
-type Props = {};
-
-export function SignUpPrompts(props: Props) {
+export function SignUpPrompts() {
 	return (
 		<footer
 			className={
